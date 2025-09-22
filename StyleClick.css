@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  font-family: Arial, sans-serif;
+}
+
+#score {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+#clickBtn {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #ff6f61;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+#clickBtn:hover {
+  background: #ff3b2e;
+}
